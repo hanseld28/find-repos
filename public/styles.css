@@ -1,0 +1,49 @@
+div.logo {
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 500;
+}
+span.empty-list {
+    margin-top: 4%;
+    font-size: 20px;
+    color: gainsboro;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+}
+form {
+    padding-top: 5%;
+}
+
+img {
+    width: 80px;
+    float: left;
+    margin-left: 2%;
+    border-radius: .5rem;
+    padding-right: 2%;
+}
+
+strong {
+    font-size: 110%;
+}
+
+p {
+    font-size: 75%;
+    margin: 5px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-weight: 500;
+    color: rgb(43, 57, 248);
+    font-style: italic;
+}
+
+footer p em{
+    font-weight: 500;
+    color: #000;
+}
