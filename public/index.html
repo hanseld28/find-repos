@@ -11,7 +11,20 @@
 <body>
     <div class="container">
         <div class="logo">
-            <svg class="octicon octicon-mark-github v-align-middle" height="50" viewBox="0 0 16 16" version="1.1" width="50" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 150.000000 150.000000" preserveAspectRatio="xMidYMid meet">
+                <g transform="translate(0.000000,150.000000) scale(0.100000,-0.100000)"
+                fill="#000000" stroke="none">
+                    <path d="M635 1095 l-7 -345 -22 0 c-13 0 -138 5 -280 11 -142 6 -260 8 -263
+                    5 -8 -7 8 -30 136 -194 61 -79 111 -147 111 -150 0 -4 -30 -37 -67 -74 -37
+                    -37 -65 -69 -62 -72 2 -2 53 5 113 16 59 11 109 18 110 16 17 -24 179 -218
+                    190 -227 22 -19 25 -8 33 144 l8 129 290 58 c458 92 506 102 508 112 1 5 -74
+                    30 -168 56 -322 89 -470 132 -485 142 -12 7 -11 8 5 4 30 -7 685 -19 685 -12
+                    0 3 -107 99 -237 214 -131 115 -314 277 -408 360 -93 84 -173 152 -176 152 -4
+                    0 -10 -155 -14 -345z m345 -453 c173 -50 337 -97 363 -104 l49 -13 -155 -32
+                    c-85 -18 -343 -68 -573 -113 -230 -44 -427 -82 -437 -84 -10 -3 44 59 120 137
+                    77 78 175 179 218 225 43 45 84 81 90 79 5 -3 152 -45 325 -95z"/>
+                </g>
+            </svg>
             <span><em>Find Github user's repositories</em></span>
         </div>    
         <form id="repo-form">
@@ -24,11 +37,16 @@
                 </div>
             </div>
         </form>
-        
-        <div class="list-group" id="repo-list"></div>
-        
-        <footer>
-            <p>Created by <em>Hansel Donizete</em></p>
+    
+        <div class="scrollbar scrollbar-primary">
+            <div class="list-group" id="repo-list"></div>
+        </div>
+
+        <footer class="page-footer font-small blue pt-4">
+            
+            <div class="footer-copyright py-3">© Hansel Donizete 2020 -
+                <a href="https://github.com/hanseld28">My Github</a>
+            </div>
         </footer>
     </div>    
 

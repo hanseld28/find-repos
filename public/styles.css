@@ -3,6 +3,15 @@ div.logo {
     font-size: 20px;
     font-weight: 500;
 }
+
+@media(max-width: 320px) {
+    div.logo {
+        margin-top: 4%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
 span.empty-list {
     margin-top: 4%;
     font-size: 20px;
@@ -32,18 +41,223 @@ p {
     margin: 5px 0;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+.scrollbar {
+    float: left;
+    height: 440px;
+    width: inherit;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+.force-overflow {
+    min-height: 440px;
 }
 
-footer p {
-    font-weight: 500;
-    color: rgb(43, 57, 248);
-    font-style: italic;
+@media (min-height: 568px) 
+{
+    .scrollbar {
+        float: left;
+        height: 360px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 360px;
+    }    
 }
 
-footer p em{
-    font-weight: 500;
-    color: #000;
+@media (min-height: 640px) 
+{
+    .scrollbar {
+        float: left;
+        height: 450px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 450px;
+    }    
+}
+
+@media (min-height: 660px) 
+{
+    .scrollbar {
+        float: left;
+        height: 475px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 475px;
+    }    
+}
+
+@media (min-height: 731px) 
+{
+    .scrollbar {
+        float: left;
+        height: 540px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 540px;
+    }    
+}
+
+@media (min-height: 782px) 
+{
+    .scrollbar {
+        float: left;
+        height: 560px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 360px;
+    }    
+}
+
+@media (min-height: 800px) 
+{
+    .scrollbar {
+        float: left;
+        height: 620px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 620px;
+    }    
+}
+@media (min-height: 950px) 
+{
+    .scrollbar {
+        float: left;
+        height: 760px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 760px;
+    }    
+}
+
+
+@media (min-height: 1024px) 
+{
+    .scrollbar {
+        float: left;
+        height: 800px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 800px;
+    }    
+}
+
+@media (min-height: 1100px) 
+{
+    .scrollbar {
+        float: left;
+        height: 820px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 820px;
+    }    
+}
+
+@media (min-height: 1200px) 
+{
+    .scrollbar {
+        float: left;
+        height: 980px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 980px;
+    }    
+}
+
+@media (min-height: 1250px) 
+{
+    .scrollbar {
+        float: left;
+        height: 1010px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 1010px;
+    }    
+}
+
+@media (min-height: 1300px) 
+{
+    .scrollbar {
+        float: left;
+        height: 1050px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 1050px;
+    }    
+}
+
+@media (min-height: 1350px) 
+{
+    .scrollbar {
+        float: left;
+        height: 1090px;
+        width: inherit;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 1090px;
+    }    
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F5F5F5; }
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #4285F4; 
+}
+    
+.scrollbar-primary {
+    scrollbar-color: #4285F4 #F5F5F5;
 }
