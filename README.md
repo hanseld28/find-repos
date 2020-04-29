@@ -8,4 +8,4 @@ This project is an experiment with the objective of studying the following techn
 - webpack
 - Bootstrap 4
 
-### [Go to Github Pages](https://hanseld28.github.io/find-repos/public/index.html) or [Go to Gitpod](https://gitpod.io/#github.com/hanseld28/find-repos)
+### Go to preview [Github Pages](https://hanseld28.github.io/find-repos/public/index.html) or [Gitpod](https://gitpod.io/#github.com/hanseld28/find-repos)
